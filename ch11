@@ -1,0 +1,8 @@
+function totalprice(prices) {
+    let tot = 0;
+    prices.forEach(pri =>{
+        tot += pri;
+    })
+    console.log(tot);
+    }
+    totalprice([2.99, 1.50, 3.00]);
